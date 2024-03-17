@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.mt6765
-
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
 #PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 #    bootctrl.mt6765 \
 #    libgptutils \
@@ -33,3 +34,35 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_SHIPPING_API_LEVEL := 33
+TARGET_OTA_ASSERT_DEVICE := CG65
+
+TW_DEVICE_VERSION := 1ndev-0.1
+
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+
+# TWRP specific build flags
+RECOVERY_SDCARD_ON_DATA := true
+TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_INCLUDE_NTFS_3G := true
+TW_INCLUDE_RESETPROP := true
+TARGET_USES_MKE2FS := true
+TW_NO_LEGACY_PROPS := true
+TW_USE_NEW_MINADBD := true
+TW_NO_BIND_SYSTEM := true
+TW_NO_SCREEN_BLANK := true
+TW_EXCLUDE_APEX := true
+TW_FRAMERATE := 60
+
+TW_Y_OFFSET := 70
+TW_H_OFFSET := -70
+
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true​
+
+
+#Properties
+TW_OVERRIDE_SYSTEM_PROPS := \
+    "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
