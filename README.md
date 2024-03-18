@@ -8,3 +8,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+
+Edited for minimalTWRP 12.1
