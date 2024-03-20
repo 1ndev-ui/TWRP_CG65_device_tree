@@ -85,7 +85,7 @@ BOARD_VORTEX_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
 BOARD_VORTEX_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # VINTF
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/recovery/root/system/etc/vintf/manifest.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/recovery/root/vendor/etc/vintf/manifest_mt6765.xml
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6765
