@@ -19,6 +19,7 @@ AB_OTA_PARTITIONS += \
     system \
     boot \
     vbmeta_system
+
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
@@ -107,6 +108,13 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
+# Crypto
+TW_INCLUDE_CRYPTO := true
+ifneq ($(TW_INCLUDE_CRYPTO),true)
+TW_CRYPTO_SYSTEM_VOLD_DEBUG := true
+TW_CRYPTO_SYSTEM_VOLD_DISABLE_TIMEOUT := true
+endif
+
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := false
@@ -114,3 +122,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_OVERRIDE_SYSTEM_PROPS := ro.build.product;ro.build.fingerprint
+TW_INCLUDE_FASTBOOTD := true
+TW_INCLUDE_RESETPROP := true
+
