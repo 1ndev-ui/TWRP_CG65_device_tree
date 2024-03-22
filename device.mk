@@ -9,17 +9,19 @@ LOCAL_PATH := device/vortex/CG65
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
-    POSTINSTALL_PATH_system=system/bin/ \
+    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl-recovery \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
     bootctrl.mt6765 \
+    bootctrl.mt6765.recovery \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd
 
@@ -29,9 +31,18 @@ PRODUCT_PACKAGES += \
 #    libz \
 #    libcutils
 
+PRODUCT_PACKAGES_DEBUG += \
+    bootctrl \
+    update_engine_client
+
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+# MTK PlPath Utils
+PRODUCT_PACKAGES += \
+    mtk_plpath_utils \
+    mtk_plpath_utils.recovery
