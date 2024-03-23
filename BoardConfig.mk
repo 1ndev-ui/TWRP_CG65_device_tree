@@ -94,8 +94,8 @@ TARGET_RECOVERY_INITRC := $(DEVICE_PATH)/recovery/root/init.recovery.mt6765.rc
 # VINTF
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/recovery/root/vendor/etc/vintf/manifest_mt6765.xml
 # Set build.prop files
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+#TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+#TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6765
