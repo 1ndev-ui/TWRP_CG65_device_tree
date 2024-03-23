@@ -165,13 +165,13 @@ TW_EXCLUDE_APEX := true
 #TW_EXCLUDE_BASH := true
 
 # Storage
-TW_NO_USB_STORAGE := false
+#TW_NO_USB_STORAGE := false
 #TW_INTERNAL_STORAGE_PATH := "/data/media/0"
 #TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
 #TW_EXTERNAL_STORAGE_PATH := "/external_sd"
 #TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
-TW_HAS_MTP := true
-TW_MTP_DEVICE := /sys/class/android_usb/android0
+#TW_HAS_MTP := true
+#TW_MTP_DEVICE := /sys/class/android_usb/android0
 
 # Firmware version & Developer Display name
 TW_DEFAULT_DEVICE_NAME := Vortex_CG65
