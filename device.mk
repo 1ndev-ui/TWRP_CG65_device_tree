@@ -6,7 +6,23 @@
 #
 
 LOCAL_PATH := device/vortex/CG65
+
+# Virtual A/B OTA
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
+ # VIRTUAL A/B
+ENABLE_VIRTUAL_AB := true
+
 # A/B
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    product \
+    vbmeta_vendor \
+    vendor \
+    system \
+    boot \
+    vbmeta_system
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
@@ -15,14 +31,14 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl-recovery \
-    android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
+    android.hardware.boot@1.1-impl-recovery \
+    android.hardware.boot@1.1-impl \
+    android.hardware.boot@1.1-service
 
 PRODUCT_PACKAGES += \
     bootctrl.mt6765 \
     bootctrl.mt6765.recovery \
-    android.hardware.fastboot@1.0-impl-mock \
+    android.hardware.fastboot@1.0-impl-mtk \
     fastbootd
 
 #PRODUCT_STATIC_BOOT_CONTROL_HAL := \
