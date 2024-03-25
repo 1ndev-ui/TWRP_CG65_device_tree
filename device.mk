@@ -12,17 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
- # VIRTUAL A/B
-ENABLE_VIRTUAL_AB := true
-
 # A/B
 AB_OTA_PARTITIONS += \
-    product \
-    vbmeta_vendor \
-    vendor \
-    system \
     boot \
-    vbmeta_system
+    system \
+    vendor
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
