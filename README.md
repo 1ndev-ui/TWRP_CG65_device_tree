@@ -33,6 +33,6 @@ Battery: 4400mAh
 
 Kernel: 4.19.191
 
-A/B slots: Yes
+Uses A/B: True
 
 Treble: Enabled 
