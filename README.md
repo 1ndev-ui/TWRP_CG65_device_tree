@@ -27,8 +27,12 @@ Display: 1600x720 @ 60Hz
 
 RAM: 4GB
 
-Kernel: 4.19.191
-
 Internal Storage: 64GB
 
 Battery: 4400mAh
+
+Kernel: 4.19.191
+
+A/B slots: Yes
+
+Treble: Enabled 
