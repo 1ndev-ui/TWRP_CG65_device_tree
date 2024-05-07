@@ -14,6 +14,7 @@
 TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
 
 Operating System: Android 13
+
 CPU: 4x ARM Cortex-A53 @ 2.2 GHz + 4x ARM Cortex-A53 @ 1.6 GHz (MTK6765)
 
 GPU:
