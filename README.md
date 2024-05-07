@@ -15,9 +15,11 @@ TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com
 
 Operating System: Android 13
 
-CPU: 4x ARM Cortex-A53 @ 2.2 GHz + 4x ARM Cortex-A53 @ 1.6 GHz (MTK6765)
+Board Name: k65v1_64_bsp
 
-GPU:
+CPU: 4x ARM64 Cortex-A53 @ 2.2 GHz + 4x ARM Cortex-A53 @ 1.6 GHz (MT6765)
+
+GPU: PowerVR Rouge GE8320
 
 RAM: 4GB
 
@@ -25,4 +27,4 @@ Internal Storage: 64GB
 
 Battery: 4400mAh
 
-Display: 
+Display: 1600x720 @ 60Hz
