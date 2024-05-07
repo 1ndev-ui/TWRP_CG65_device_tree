@@ -9,4 +9,4 @@
 #
 ```
 
-Edited for minimalTWRP 12.1
+Built using [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
