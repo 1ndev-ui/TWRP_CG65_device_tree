@@ -9,4 +9,4 @@
 #
 ```
 
-Built using [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
+TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
