@@ -1,4 +1,4 @@
-# Android TWRP device tree for Vortex CG65 (MT6765)
+# TWRP/OFRP device tree for Vortex CG65 (MT6765)
 
 ```
 #
