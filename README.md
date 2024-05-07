@@ -23,7 +23,7 @@ TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com
 - Board Name: k65v1_64_bsp
 - CPU: 4x ARM64 Cortex-A53 @ 2.2 GHz + 4x ARM Cortex-A53 @ 1.6 GHz (MT6765)
 - GPU: PowerVR Rouge GE8320
-- Display: 1600x720 @ 60Hz
+- Display: 720x1600 @ 60Hz
 - RAM: 4GB
 - Internal Storage: 64GB
 - Battery: 4400mAh
