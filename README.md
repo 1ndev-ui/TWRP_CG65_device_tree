@@ -9,4 +9,6 @@
 #
 ```
 
+![Vortex CG65 Image](https://standupwireless.com/wp-content/uploads/CG65.png)
+
 TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
