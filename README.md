@@ -29,4 +29,4 @@ TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com
 - Battery: 4400mAh
 - Kernel: 4.19.191
 - Uses A/B: True
-- Treble: Enabled 
+- Treble Device: True
