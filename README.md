@@ -14,7 +14,7 @@
 TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
 
 - [Vortex CG65 ROM Device Tree](https://github.com/1ndev-ui/ROM_CG65_device_tree) / [Stock ROM Dump](https://github.com/1ndev-ui/dump_vortex_cg65)
-- [Vendor Tree](https://github.com/1ndev-ui/vendor_vortex_CG65)
+- [Vendor Partition Tree](https://github.com/1ndev-ui/vendor_vortex_CG65)
 
 ## SPECIFICATIONS:
 
