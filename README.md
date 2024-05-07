@@ -13,7 +13,9 @@
 
 TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
 
-Operating System: Android 13
+SPECIFICATIONS:
+
+OS: Android 13
 
 Board Name: k65v1_64_bsp
 
