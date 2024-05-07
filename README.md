@@ -21,10 +21,10 @@ CPU: 4x ARM64 Cortex-A53 @ 2.2 GHz + 4x ARM Cortex-A53 @ 1.6 GHz (MT6765)
 
 GPU: PowerVR Rouge GE8320
 
+Display: 1600x720 @ 60Hz
+
 RAM: 4GB
 
 Internal Storage: 64GB
 
 Battery: 4400mAh
-
-Display: 1600x720 @ 60Hz
