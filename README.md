@@ -13,6 +13,8 @@
 
 TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
 
+![TeamWin Logo](https://www.neuraldump.com/wp-content/uploads/2017/05/teamwin.png)
+
 - [Vortex CG65 ROM Device Tree](https://github.com/1ndev-ui/ROM_CG65_device_tree)
 - [Stock ROM Dump](https://github.com/1ndev-ui/dump_vortex_cg65)
 - [Vendor Partition Device Tree](https://github.com/1ndev-ui/vendor_vortex_CG65)
