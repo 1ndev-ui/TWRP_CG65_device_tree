@@ -9,11 +9,11 @@
 #
 ```
 
+
+
 ![Vortex CG65 Image](https://standupwireless.com/wp-content/uploads/CG65.png)
 
 TWRP & OFRP recoveries built using: [Action Recovery Builder](https://github.com/1ndevelopment/Action-Recovery-Builder)
-
-![TeamWin Logo](https://xdaforums.com/proxy.php?image=http%3A%2F%2Fi.imgur.com%2FetLFwha.png&hash=ed22c53199f56ab0d68a72e710bd68b9)
 
 - [Vortex CG65 ROM Device Tree](https://github.com/1ndev-ui/ROM_CG65_device_tree)
 - [Stock ROM Dump](https://github.com/1ndev-ui/dump_vortex_cg65)
